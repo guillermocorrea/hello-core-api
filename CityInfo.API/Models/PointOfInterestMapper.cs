@@ -7,33 +7,33 @@ namespace CityInfo.API.Models
 {
     public static class PointOfInterestMapper
     {
-        public static PointOfInterestDto Convert(PointOfInterestForCreationDto dto)
-        {
-            if (dto == null)
-            {
-                throw new ArgumentNullException("dto");
-            }
+        //public static PointOfInterestDto Convert(PointOfInterestForCreationDto dto)
+        //{
+        //    if (dto == null)
+        //    {
+        //        throw new ArgumentNullException("dto");
+        //    }
 
-            return new PointOfInterestDto
-            {
-                Description = dto.Description,
-                Name = dto.Name
-            };
-        }
+        //    return new PointOfInterestDto
+        //    {
+        //        Description = dto.Description,
+        //        Name = dto.Name
+        //    };
+        //}
 
-        public static PointOfInterestForUpdateDto Convert(PointOfInterestDto dto)
-        {
-            if (dto == null)
-            {
-                throw new ArgumentNullException("dto");
-            }
+        //public static PointOfInterestForUpdateDto Convert(PointOfInterestDto dto)
+        //{
+        //    if (dto == null)
+        //    {
+        //        throw new ArgumentNullException("dto");
+        //    }
 
-            return new PointOfInterestForUpdateDto
-            {
-                Description = dto.Description,
-                Name = dto.Name
-            };
-        }
+        //    return new PointOfInterestForUpdateDto
+        //    {
+        //        Description = dto.Description,
+        //        Name = dto.Name
+        //    };
+        //}
 
         public static void UpdateValues(PointOfInterestForUpdateDto source, PointOfInterestDto destiny)
         {

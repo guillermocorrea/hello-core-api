@@ -1,0 +1,1641 @@
+{
+	"variables": [],
+	"info": {
+		"name": "CityInfo.Api",
+		"_postman_id": "81e60adb-dea0-d030-dfb6-343ca5c4c142",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:59122/api/todo/836244bc-747c-47b6-bce8-055569ccafe8",
+			"request": {
+				"url": "http://localhost:59122/api/todo/836244bc-747c-47b6-bce8-055569ccafe8",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo",
+			"request": {
+				"url": "http://localhost:59122/api/todo",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo/261b3bad-a44a-4909-997b-0a7fb0d47620",
+			"request": {
+				"url": "http://localhost:59122/api/todo/261b3bad-a44a-4909-997b-0a7fb0d47620",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo",
+			"request": {
+				"url": "http://localhost:59122/api/todo",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo",
+			"request": {
+				"url": "http://localhost:59122/api/todo",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo",
+			"request": {
+				"url": "http://localhost:59122/api/todo",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo",
+			"request": {
+				"url": "http://localhost:59122/api/todo",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\tname: \"aaa\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo",
+			"request": {
+				"url": "http://localhost:59122/api/todo",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\tname: \"aaa\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo",
+			"request": {
+				"url": "http://localhost:59122/api/todo",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\tname: \"aaa\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo/484b9736-5503-4cf5-bca1-7e0a9417c010",
+			"request": {
+				"url": "http://localhost:59122/api/todo/484b9736-5503-4cf5-bca1-7e0a9417c010",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"aa484b9736-5503-4cf5-bca1-7e0a9417c010\",\n    \"name\": \"Item1\",\n    \"isComplete\": false\n  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo/484b9736-5503-4cf5-bca1-7e0a9417c010",
+			"request": {
+				"url": "http://localhost:59122/api/todo/484b9736-5503-4cf5-bca1-7e0a9417c010",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"484b9736-5503-4cf5-bca1-7e0a9417c010\",\n    \"name\": \"Item1 updated\",\n    \"isComplete\": true\n  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59122/api/todo/",
+			"request": {
+				"url": "http://localhost:59122/api/todo/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"484b9736-5503-4cf5-bca1-7e0a9417c010\",\n    \"name\": \"Item1 updated\",\n    \"isComplete\": true\n  }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/cities/getcities",
+			"request": {
+				"url": "http://localhost:63873/cities/getcities",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/cities/",
+			"request": {
+				"url": "http://localhost:63873/cities/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/4",
+			"request": {
+				"url": "http://localhost:63873/api/cities/4",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/2",
+			"request": {
+				"url": "http://localhost:63873/api/cities/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/",
+			"request": {
+				"url": "http://localhost:63873/api/cities/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/5",
+			"request": {
+				"url": "http://localhost:63873/api/cities/5",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/6/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/6/pointsofinterest",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/",
+			"request": {
+				"url": "http://localhost:63873/api/cities/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsOfInterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsOfInterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nothredame Church\",\n\t\"description\": \"afsaf asf as fasf asf as fasf \"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nothredame Church\",\n\t\"description\": \"afsaf asf as fasf asf as fasf \"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nothredame Church\",\n\t\"description\": \"afsaf asf as fasf asf as fasf \"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nothredame Church\",\n\t\"description\": \"afsaf asf as fasf asf as fasf \"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nothredame Church\",\n\t\"description\": \"afsaf asf as fasf asf as fasf \"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nothredame Church\",\n\t\"description\": \"afsaf asf as fasf asf as fasf \"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Nothredame Church\",\n\t\"description\": \"afsaf asf as fasf asf as fasf \"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"description\": \"afsaf asf as fasf asf as fasf asf asfas  asf as fasf asf as asfas fas fasf fafsa f fas s fafsa f sasfaasf s afsf afs fsafsa fs fs fsa fas asf asf sf asf af s sfsf asf asfa f sf saf saf ssafs af sa sf\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"description\": \"afsaf asf as fasf asf as fasf asf asfas  asf as fasf asf as asfas fas fasf fafsa f fas s fafsa f sasfaasf s afsf afs fsafsa fs fs fsa fas asf asf sf asf af s sfsf asf asfa f sf saf saf ssafs af sa sf\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"description\": \"afsaf asf as fasf asf as fasf asf asfas  asf as fasf asf as asfas fas fasf fafsa f fas s fafsa f sasfaasf s afsf afs fsafsa fs fs fsa fas asf asf sf asf af s sfsf asf asfa f sf saf saf ssafs af sa sf\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"a\"\n\t\"description\": \"a\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"a\"\n\t\"description\": \"a\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"a\"\n\t\"description\": \"a\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"a\",\n\t\"description\": \"a\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"a\",\n\t\"description\": \"a\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"a\",\n\t\"description\": \"ab\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"a\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"opt\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"hey ho new value\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json-patch+json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"opt\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"hey ho new value\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"hey ho new value\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/9/pointsofinterest/",
+			"request": {
+				"url": "http://localhost:63873/api/cities/9/pointsofinterest/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/testdb",
+			"request": {
+				"url": "http://localhost:63873/api/testdb",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/testdb",
+			"request": {
+				"url": "http://localhost:63873/api/testdb",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/testdb",
+			"request": {
+				"url": "http://localhost:63873/api/testdb",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities",
+			"request": {
+				"url": "http://localhost:63873/api/cities",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/10",
+			"request": {
+				"url": "http://localhost:63873/api/cities/10",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/5/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/5/pointsofinterest",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/5",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/5",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1?includePointsOfInterest=true",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1?includePointsOfInterest=true",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"remove\",\n\t\t\"path\": \"/name\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Moulin Rouge\",\n\t\"description\": \"Most famous cabaret\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Moulin Rouge\",\n\t\"description\": \"Most famous cabaret\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 1,\n  \"name\": \"Updated - Central Park\",\n  \"description\": \"Updated - Lorem ipsum.\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"opt\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"opt\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+			"request": {
+				"url": "http://localhost:63873/api/cities/1/pointsofinterest/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/",
+			"request": {
+				"url": "http://localhost:63873/api/cities/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest/2002",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest/2002",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:63873/api/cities/3/pointsofinterest/2002",
+			"request": {
+				"url": "http://localhost:63873/api/cities/3/pointsofinterest/2002",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/name\",\n\t\t\"value\": \"Updated Patch - Central Park\"\n\t},\n\t{\n\t\t\"op\": \"replace\",\n\t\t\"path\": \"/description\",\n\t\t\"value\": \"Updated Patch - Lorem ipsum.\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
